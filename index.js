@@ -2,7 +2,7 @@ let ROOM_ID = prompt("Enter  Your name");
 if (ROOM_ID === null) {
   ROOM_ID = prompt("Enter you Name");
 } else {
-  const socket = io("https://vide-app-backend.vercel.app");
+  const socket = io("https://intriguing-unequaled-kitten.glitch.me");
   const videoGrid = document.getElementById("video-grid");
   const myPeer = new Peer();
 
